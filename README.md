@@ -8,10 +8,10 @@ Thanks to mentor Julian Jenkins III
 <br />I have used a credit card datset.Credit cards are a good source of income for banks because of different kinds of fees charged by the banks like annual fees,balance transfer fees, and cash advance fees, late payment fees, foreign transaction fees, and others. Some fees are charged to every user irrespective of usage, while others are charged under specified circumstances.
 
 #### Objectives:
-● Explore the dataset and visualize the same
-● Build a model to predict the customer is going to churn or not
-● Optimize the 3 models with appropriate techniques
-● Generate a set of insights and recommendations that may help the bank
+<br />Explore the dataset and visualize the same
+<br />Build a model to predict the customer is going to churn or not
+<br />Optimize the 3 models with appropriate techniques
+<br />Generate a set of insights and recommendations that may help the bank
 #### Data Source
 From google data search
 https://www.kaggle.com/c/1056lab-credit-card-customer-churn-prediction/data
