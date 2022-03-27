@@ -24,4 +24,5 @@ the data.
 <br />● Weird values or filled, for example “unknown”
 <br />● Corrected weirdly formatted values(income category)
 <br />● From the initial look on data, found below information.
-<b>My target variable is :Attrition_Flag: if the account is closed then "Attrited Customer" else "Existing Customer"</b>
+#### <b>My target variable is :Attrition_Flag: if the account is closed then "Attrited Customer" else "Existing Customer"</b>
+![image](https://user-images.githubusercontent.com/87315447/160265230-bc519446-1147-4f28-810f-8820e03ea96c.png)
