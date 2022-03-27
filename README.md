@@ -31,5 +31,5 @@ the data.
 <br />2. Divided by Median: related by magnitude or right skewed
 <br />3. Log scaling:related by magnitude
 <br />4. Square root : for counts
-<br />![image](https://user-images.githubusercontent.com/87315447/160265334-111018f8-2965-4b84-b715-69c8096684e9.png)
+<br />![image](https://user-images.githubusercontent.com/87315447/160265343-4e7becfa-7992-40d7-89f3-d5b52837e66f.png)
 
