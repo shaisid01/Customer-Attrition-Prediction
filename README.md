@@ -14,3 +14,13 @@ Thanks to mentor Julian Jenkins III
 #### Data Source
 From google data search
 https://www.kaggle.com/c/1056lab-credit-card-customer-churn-prediction/data
+#### Data Wrangling
+There are 10127 rows and 23 columns. Here are the steps performed to clean and oraganize
+the data.
+<br />● Checked for missing values
+<br />● Checked for Null
+<br />● Checked for missing values
+<br />● Checked for unique values
+<br />● Weird values or filled, for example “unknown”
+<br />● Corrected weirdly formatted values(income category)
+<br />● From the initial look on data, found below information.
