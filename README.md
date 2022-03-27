@@ -25,4 +25,11 @@ the data.
 <br />● Corrected weirdly formatted values(income category)
 <br />● From the initial look on data, found below information.
 #### <b>My target variable is :Attrition_Flag: if the account is closed then "Attrited Customer" else "Existing Customer"</b>
-![image](https://user-images.githubusercontent.com/87315447/160265230-bc519446-1147-4f28-810f-8820e03ea96c.png)
+#### Feature Scaling and Distribution:
+4 different types scaling is applied -
+<br />1. z-score scaling : Approximately normally distributed
+<br />2. Divided by Median: related by magnitude or right skewed
+<br />3. Log scaling:related by magnitude
+<br />4. Square root : for counts
+<br />![image](https://user-images.githubusercontent.com/87315447/160265334-111018f8-2965-4b84-b715-69c8096684e9.png)
+
