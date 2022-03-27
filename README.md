@@ -73,3 +73,15 @@ This project aims to predict potential churn customers, and it is realized that 
 ![image](https://user-images.githubusercontent.com/87315447/160265508-8b2646d5-cf07-4dc5-977f-c4348d797205.png)
 #### XGBoost Classification: Metric Evaluation
 ![image](https://user-images.githubusercontent.com/87315447/160265543-3b053216-0ecb-4b40-872b-7f6cf45f4b4d.png)
+#### ROC_AUC Curve Evaluation
+![image](https://user-images.githubusercontent.com/87315447/160265589-081d9530-7c26-4cfd-adca-62c410c0767e.png)
+#### Summary
+</br>● XGBoost and Logistic regression is performing well on both training and test set.
+</br>● RandomForest is the same as naive. Model does not have the ability to predict defaults
+and non-defaults.
+</br>● KNeighbors is overfitting
+#### Additional Models
+</br>● It would be interesting to see the results of other models, meaning trying different algorithms
+</br>● Making combination or hybrid models, e.g. RF + TensorFlow
+</br>● Trying feature crosses like dmatrix from patsy
+</br>● Clustering or association rules
