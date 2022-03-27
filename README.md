@@ -45,16 +45,29 @@ In the Pre-processing I applied the scaling best found from the EDA as follows
 <br />● One hot encoding is applied
 #### Modeling
 Steps followed to build model are -
-<br />1. Set the model object, Pipeline, cross-validator, etc.
+1. Set the model object, Pipeline, cross-validator, etc.
 <br />2. Evaluate the fit on the training data (make sure everything is working,
 <br />3. is the metric acceptable?)
 <br />4. Pick the threshold (using the training data)
 <br />5. Evaluate on the test data
 <br />6. Make sure to compare train and test results (generally perform worse on test)
 #### Model used are
-<br />1. naive model
+1. naive model
 <br />2. Logistic Regression
 <br />3. Random Forest Classification
 <br />4. KNeighbours Classification
 <br />5. XGBoost Classification
-
+#### Evaluation Metrics
+This project aims to predict potential churn customers, and it is realized that the client cost of mistakenly classifying non-churn customers as churn may be high in practice because banks would not want to lose valuable customers, and the banks would like to identify churners at their best efforts as well. Thus, it would be useful to consider Recall. To complement this Receiver Operating Characteristic curve (ROC) is used. ROC is a plot of True Positive Rate (TPR) against False Positive Rate (FPR). This means I can consider TPR and FPR simultaneously, by making use of the area under the curve (AUC) of ROC. 
+<br />TPR or Recall or Sensitivity tells us what proportion of the positive class got correctly classified. TPR = TP/(TP+FN)
+<br />FPR tells us what proportion of the negative class got incorrectly classified by the classifier. FPR = FP/(TN+FP)
+<br />All models are used to predict the actual class of the data point by predicting its probability of belonging to different classes. This gives us more control over the result.And ROC_AUC threshold is used to interpret the result of the classifier.
+#### Steps followed to build model are
+<br />1. Set the model object, Pipeline, cross-validator, etc.
+<br />2. Evaluate the fit on the training data (make sure everything is working,
+<br />3. is the metric acceptable?)
+<br />4. Pick the threshold (using the training data)
+<br />5. Evaluate on the test data
+<br />6. compare train and test results
+#### Logistic Regression: Metrics Evaluation
+![image](https://user-images.githubusercontent.com/87315447/160265508-8b2646d5-cf07-4dc5-977f-c4348d797205.png)
