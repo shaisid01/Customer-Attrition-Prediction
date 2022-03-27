@@ -32,4 +32,6 @@ the data.
 <br />3. Log scaling:related by magnitude
 <br />4. Square root : for counts
 <br />![image](https://user-images.githubusercontent.com/87315447/160265343-4e7becfa-7992-40d7-89f3-d5b52837e66f.png)
-
+#### Exploratory Data Analysis
+At this Exploratory Data analysis step feature relationship is evaluated.The features that are likely to have the most impact in modeling based on relationships between the features and the response variable are identified. SCaled features are compared with original features with help of hist plot. Pearson correlation coefficients were used to identify statistical relationship strengths. 
+<br />Scaling is visualized with distribution plot one sample is below -
