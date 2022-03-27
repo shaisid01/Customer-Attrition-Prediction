@@ -35,3 +35,26 @@ the data.
 #### Exploratory Data Analysis
 At this Exploratory Data analysis step feature relationship is evaluated.The features that are likely to have the most impact in modeling based on relationships between the features and the response variable are identified. SCaled features are compared with original features with help of hist plot. Pearson correlation coefficients were used to identify statistical relationship strengths. 
 <br />Scaling is visualized with distribution plot one sample is below -
+![image](https://user-images.githubusercontent.com/87315447/160265382-e5115c84-5f8c-41ec-8739-b0a8658b808d.png)
+#### Pre-Processing
+In the Pre-processing I applied the scaling best found from the EDA as follows
+<br />● Z scoring for "Customer_Age","Months_on_book"
+<br />● Div median for 'Total_Revolving_Bal'
+<br />● Log scaling for "Credit_Limit","Total_Trans_Amt"
+<br />● Test and Train sets are created with 80:20 ratio.
+<br />● One hot encoding is applied
+#### Modeling
+Steps followed to build model are -
+<br />1. Set the model object, Pipeline, cross-validator, etc.
+<br />2. Evaluate the fit on the training data (make sure everything is working,
+<br />3. is the metric acceptable?)
+<br />4. Pick the threshold (using the training data)
+<br />5. Evaluate on the test data
+<br />6. Make sure to compare train and test results (generally perform worse on test)
+#### Model used are
+<br />1. naive model
+<br />2. Logistic Regression
+<br />3. Random Forest Classification
+<br />4. KNeighbours Classification
+<br />5. XGBoost Classification
+
